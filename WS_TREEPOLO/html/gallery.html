@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View photos of TREEPolo's venue, food, and events.">
+    <title>Gallery | TREEPolo - Relax and Reconnect</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/webp" href="../webimages/treepolo_logo.webp">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .page-header {
+            margin-top: 80px;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../webimages/background4.webp');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 6rem 2rem;
+        }
+        .page-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        .gallery-filter {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .filter-btn {
+            background: transparent;
+            border: 2px solid var(--light-green);
+            color: var(--light-green);
+            padding: 0.5rem 1.5rem;
+            margin: 0 0.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: 'Poppins', sans-serif;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--light-green);
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../webimages/treepolo_logo.webp" alt="TREEPolo Logo">
+                <span class="logo-text">TREEPolo</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="events.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Our Gallery</h1>
+        <p>Glimpses of our cozy space and delicious offerings</p>
+    </header>
+
+    <section class="gallery" style="padding: 4rem 5%;">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View restaurant exterior">
+                    <img src="../webimages/view1.webp" alt="TREEPolo Restaurant Exterior">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View venue">
+                    <img src="../webimages/house.webp" alt="TREEPolo Interior Venue">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View bar area">
+                    <img src="../webimages/view3.webp" alt="Open Bar Setup">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View garden">
+                    <img src="../webimages/view4.webp" alt="Garden Area">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View interior design">
+                    <img src="../webimages/view5.webp" alt="Interior Lighting">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View cookies">
+                    <img src="../webimages/cookie.webp" alt="Homemade Cookies">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View appetizers">
+                    <img src="../webimages/hotkik.webp" alt="Appetizer Platter">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View sandwiches">
+                    <img src="../webimages/flowers.webp" alt="Fresh Flowers">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View finger foods">
+                    <img src="../webimages/sanwet_grep.webp" alt="Finger Food Selection">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View desserts">
+                    <img src="../webimages/salad.webp" alt="Salad">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View event setup">
+                    <img src="../webimages/event2.webp" alt="Event Buffet Setup">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View dining setup">
+                    <img src="../webimages/event3.webp" alt="Dining Setup">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View catering display">
+                    <img src="../webimages/event4.webp" alt="Catering Display">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View buffet">
+                    <img src="../webimages/event5.webp" alt="Buffet Spread">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View burger">
+                    <img src="../webimages/bargar.webp" alt="Signature Burger">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item" tabindex="0" role="button" aria-label="View nachos">
+                    <img src="../webimages/nacos.webp" alt="Loaded Nachos">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" style="padding: 4rem 5%;">
+        <div class="container">
+            <h2>Visit Us</h2>
+            <p>See more in person!</p>
+            <a href="contact.html" class="btn btn-secondary" style="margin-top: 1rem;">Get Directions</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 TREEPolo. All rights reserved. | Relax and Reconnect</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
