@@ -2,6 +2,10 @@
 
 **Designer:** Alleah Wendine M. Tejares – 3A
 
+## URL / Domain
+[https://tejares-ws-101-final-project.vercel.app/index.html](https://tejares-ws-101-final-project.vercel.app/index.html)
+
+
 ## Project Overview
     This project focuses on designing a promotional website for **Treepolo Café**, a nature-inspired dining destination in Antique known for its rustic ambiance and relaxing “al fresco” experience. The website is targeted at local coffee enthusiasts, digital nomads, and travelers seeking a peaceful, aesthetically pleasing hangout.
 
